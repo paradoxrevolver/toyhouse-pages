@@ -1,4 +1,4 @@
-# toyhouse pages
+# toyhou.se pages
 
 various html work i've done for profile and characters pages on my [toyhou.se](https://toyhou.se/rubic) page.
 
