@@ -1,16 +1,50 @@
 <!--
 paradoxrevolver aka rubic
-updated: 2019 may 29
+updated: 2019 may 30
 -->
 <div class="container-fluid d-flex flex-column" style="max-width: 800px;">
+    <a name="top"></a>
     <div class="row">
-        <div class="col-12 card p-3">Speed Dial</div>
-        <div class="col-12 p-3">Navigation</div>
-        <div class="col-12 card p-3 mb-3">About</div>
-        <div class="col-12 card p-3 mb-3">Worlds</div>
-        <div class="col-12 card p-3 mb-3">Folders</div>
-        <div class="col-12 card p-3">Contact</div>
-        <div class="col-12 p-3">Navigation</div>
+        <div class="col-12 p-3 d-flex">Speed Dial</div>
+        <div class="col-12 p-3 d-flex justify-content-center align-items-center flex-wrap flex-column flex-md-row">
+            <div class="d-inline-flex">
+                <h4><a href="#about">ABOUT</a>&emsp;&emsp;<a href="#contact">CONTACT</a></h4>
+            </div>
+            <div class="d-inline-flex order-1 order-md-0">
+                <h4>&emsp;&emsp;</h4><h1><a href="#bottom">▼</a></h1><h4>&emsp;&emsp;</h4>
+            </div>
+            <div class="d-inline-flex">
+                <h4><a href="#worlds">WORLDS</a>&emsp;&emsp;<a href="#folders">FOLDERS</a></h4>
+            </div>
+        </div>
+        <div class="col-12 card p-3 mb-3">
+            <a name="about"></a>
+            About
+        </div>
+        <div class="col-12 card p-3 mb-3">
+            <a name="contact"></a>
+            Contact
+        </div>
+        <div class="col-12 card p-3 mb-3">
+            <a name="worlds"></a>
+            Worlds
+        </div>
+        <div class="col-12 card p-3">
+            <a name="folders"></a>
+            Folders
+        </div>
+        <a name="bottom"></a>
+        <div class="col-12 p-3 d-flex justify-content-center align-items-center flex-wrap flex-column flex-md-row">
+            <div class="d-inline-flex order-1">
+                <h4><a href="#about">ABOUT</a>&emsp;&emsp;<a href="#contact">CONTACT</a></h4>
+            </div>
+            <div class="d-inline-flex order-0 order-md-1">
+                <h4>&emsp;&emsp;</h4><h1><a href="#top">▲</a></h1><h4>&emsp;&emsp;</h4>
+            </div>
+            <div class="d-inline-flex order-1">
+                <h4><a href="#worlds">WORLDS</a>&emsp;&emsp;<a href="#folders">FOLDERS</a></h4>
+            </div>
+        </div>
     </div>
 </div>
 <p>
